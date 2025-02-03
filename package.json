@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss40",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx @tailwindcss/cli -i ./wwwroot/css/tailwind.css -o ./wwwroot/css/hopsersmerk.css",
+    "watch:css": "npx @tailwindcss/cli -i ./wwwroot/css/tailwind.css -o ./wwwroot/css/hopsersmerk.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.3",
+    "tailwindcss": "^4.0.3"
+  }
+}

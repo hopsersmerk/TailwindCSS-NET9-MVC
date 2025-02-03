@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.bg-hopsersmerk {
+    linear-gradient(150deg, #b3b6f2,
+    #e395f9)
+}
